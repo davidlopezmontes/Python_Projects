@@ -1,6 +1,6 @@
 # Python_Projects
 Repositorio con pequeños proyectos desarrollados en Python.
-
+## Tres en raya
 - El proyecto **tres_en_raya**, permite jugar una partida 1vs1 en el que mediante inputs, se va pidiendo a cada jugador el número de fila y columna en el que quiere colocar su ficha (las fichas son representadas por la letra X y la letra O). Las filas y columnas tienen solo tres posiciones válidas, las cuales son 0, 1 y 2. Siendo (0, 0) la esquina superior izquierda.
-
+## Wordle
 - El proyecto **wordle**, permite jugar al juego de adivinar palabras desde la consola. Cuenta con 3 niveles de dificultad según el número de letras de la palabra a adivinar: 4 para fácil, 5 para media y 6 para difícil. Mediante inputs, el jugador puede seleccionar la dificultad e intentar adivinar la palabra secreta introduciendo palabras con un límite de 6 intentos. Para guiar al jugador, cada vez que se acierta una letra en la posición correcta se muestra en mayúscula. Las letras que pertenecen a la palabra secreta, pero que están en una posición incorrecta se muestran en minúscula. Y los huecos sin acertar se muestran con un guion bajo "_". Todas las palabras se cargan desde un archivo de texto externo llamado palabras.txt, el cual esta estructurado como un diccionaro (clave:valor) siendo clave la palabra y valor el número de letras. Esto permite aumentar las palabras del juego sin cambiar la lógica del mismo.
